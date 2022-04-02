@@ -2,8 +2,6 @@ const express = require("express");
 
 const Gallery =require("../models/usergalleryModel");
 
-// middleWare
-
 const fileUpload = require("../middleWare/uploadFile");
 
 const router = express.Router();
